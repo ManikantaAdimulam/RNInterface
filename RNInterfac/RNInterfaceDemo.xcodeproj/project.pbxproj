@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2842A7D3D0E5EFC0541D64D5 /* Pods_RNInterfaceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81DEF449901594EEA6DE218 /* Pods_RNInterfaceDemo.framework */; };
+		478B7B7121DA104F007A4C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7B7021DA104F007A4C1E /* AppDelegate.swift */; };
+		478B7B7321DA104F007A4C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7B7221DA104F007A4C1E /* ViewController.swift */; };
+		478B7B7621DA104F007A4C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478B7B7421DA104F007A4C1E /* Main.storyboard */; };
+		478B7B7821DA1070007A4C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478B7B7721DA1070007A4C1E /* Assets.xcassets */; };
+		478B7B7B21DA1070007A4C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478B7B7921DA1070007A4C1E /* LaunchScreen.storyboard */; };
+		478B7B8621DA1070007A4C1E /* RNInterfaceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7B8521DA1070007A4C1E /* RNInterfaceDemoTests.swift */; };
+		478B7B9121DA1070007A4C1E /* RNInterfaceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7B9021DA1070007A4C1E /* RNInterfaceDemoUITests.swift */; };
+		478B7BA621DA1149007A4C1E /* RNInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7BA021DA1149007A4C1E /* RNInterface.swift */; };
+		478B7BA721DA1149007A4C1E /* ReactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7BA221DA1149007A4C1E /* ReactVC.swift */; };
+		478B7BA821DA1149007A4C1E /* RNMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B7BA521DA1149007A4C1E /* RNMethods.m */; };
+		478B7BAA21DA174E007A4C1E /* ReactNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478B7BA921DA174E007A4C1E /* ReactNativeModule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		478B7B8221DA1070007A4C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478B7B6521DA104F007A4C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478B7B6C21DA104F007A4C1E;
+			remoteInfo = RNInterfaceDemo;
+		};
+		478B7B8D21DA1070007A4C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 478B7B6521DA104F007A4C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478B7B6C21DA104F007A4C1E;
+			remoteInfo = RNInterfaceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1035C1AD45A7981A31634BFC /* Pods-RNInterfaceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNInterfaceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNInterfaceDemo/Pods-RNInterfaceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2F68F06A2246275E5732ED66 /* Pods-RNInterfaceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNInterfaceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNInterfaceDemo/Pods-RNInterfaceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		478B7B6D21DA104F007A4C1E /* RNInterfaceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNInterfaceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B7B7021DA104F007A4C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478B7B7221DA104F007A4C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		478B7B7521DA104F007A4C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478B7B7721DA1070007A4C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478B7B7A21DA1070007A4C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478B7B7C21DA1070007A4C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478B7B8121DA1070007A4C1E /* RNInterfaceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNInterfaceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B7B8521DA1070007A4C1E /* RNInterfaceDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNInterfaceDemoTests.swift; sourceTree = "<group>"; };
+		478B7B8721DA1070007A4C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478B7B8C21DA1070007A4C1E /* RNInterfaceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNInterfaceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B7B9021DA1070007A4C1E /* RNInterfaceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNInterfaceDemoUITests.swift; sourceTree = "<group>"; };
+		478B7B9221DA1070007A4C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478B7BA021DA1149007A4C1E /* RNInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNInterface.swift; sourceTree = "<group>"; };
+		478B7BA221DA1149007A4C1E /* ReactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactVC.swift; sourceTree = "<group>"; };
+		478B7BA421DA1149007A4C1E /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		478B7BA521DA1149007A4C1E /* RNMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMethods.m; sourceTree = "<group>"; };
+		478B7BA921DA174E007A4C1E /* ReactNativeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactNativeModule.swift; sourceTree = "<group>"; };
+		D81DEF449901594EEA6DE218 /* Pods_RNInterfaceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNInterfaceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478B7B6A21DA104F007A4C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2842A7D3D0E5EFC0541D64D5 /* Pods_RNInterfaceDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B7E21DA1070007A4C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B8921DA1070007A4C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478B7B6421DA104F007A4C1E = {
+			isa = PBXGroup;
+			children = (
+				478B7B6F21DA104F007A4C1E /* RNInterfaceDemo */,
+				478B7B8421DA1070007A4C1E /* RNInterfaceDemoTests */,
+				478B7B8F21DA1070007A4C1E /* RNInterfaceDemoUITests */,
+				478B7B6E21DA104F007A4C1E /* Products */,
+				D5D3596313E1D79B90822235 /* Pods */,
+				A214CE6E6A04F5B813ABC3C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		478B7B6E21DA104F007A4C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478B7B6D21DA104F007A4C1E /* RNInterfaceDemo.app */,
+				478B7B8121DA1070007A4C1E /* RNInterfaceDemoTests.xctest */,
+				478B7B8C21DA1070007A4C1E /* RNInterfaceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478B7B6F21DA104F007A4C1E /* RNInterfaceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				478B7B9E21DA1149007A4C1E /* React */,
+				478B7B7021DA104F007A4C1E /* AppDelegate.swift */,
+				478B7B7221DA104F007A4C1E /* ViewController.swift */,
+				478B7B7421DA104F007A4C1E /* Main.storyboard */,
+				478B7B7721DA1070007A4C1E /* Assets.xcassets */,
+				478B7B7921DA1070007A4C1E /* LaunchScreen.storyboard */,
+				478B7B7C21DA1070007A4C1E /* Info.plist */,
+			);
+			path = RNInterfaceDemo;
+			sourceTree = "<group>";
+		};
+		478B7B8421DA1070007A4C1E /* RNInterfaceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				478B7B8521DA1070007A4C1E /* RNInterfaceDemoTests.swift */,
+				478B7B8721DA1070007A4C1E /* Info.plist */,
+			);
+			path = RNInterfaceDemoTests;
+			sourceTree = "<group>";
+		};
+		478B7B8F21DA1070007A4C1E /* RNInterfaceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				478B7B9021DA1070007A4C1E /* RNInterfaceDemoUITests.swift */,
+				478B7B9221DA1070007A4C1E /* Info.plist */,
+			);
+			path = RNInterfaceDemoUITests;
+			sourceTree = "<group>";
+		};
+		478B7B9E21DA1149007A4C1E /* React */ = {
+			isa = PBXGroup;
+			children = (
+				478B7BA921DA174E007A4C1E /* ReactNativeModule.swift */,
+				478B7B9F21DA1149007A4C1E /* RNInterface */,
+				478B7BA121DA1149007A4C1E /* RNController */,
+				478B7BA321DA1149007A4C1E /* RNMethod */,
+			);
+			path = React;
+			sourceTree = "<group>";
+		};
+		478B7B9F21DA1149007A4C1E /* RNInterface */ = {
+			isa = PBXGroup;
+			children = (
+				478B7BA021DA1149007A4C1E /* RNInterface.swift */,
+			);
+			path = RNInterface;
+			sourceTree = "<group>";
+		};
+		478B7BA121DA1149007A4C1E /* RNController */ = {
+			isa = PBXGroup;
+			children = (
+				478B7BA221DA1149007A4C1E /* ReactVC.swift */,
+			);
+			path = RNController;
+			sourceTree = "<group>";
+		};
+		478B7BA321DA1149007A4C1E /* RNMethod */ = {
+			isa = PBXGroup;
+			children = (
+				478B7BA421DA1149007A4C1E /* Demo-Bridging-Header.h */,
+				478B7BA521DA1149007A4C1E /* RNMethods.m */,
+			);
+			path = RNMethod;
+			sourceTree = "<group>";
+		};
+		A214CE6E6A04F5B813ABC3C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81DEF449901594EEA6DE218 /* Pods_RNInterfaceDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D3596313E1D79B90822235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F68F06A2246275E5732ED66 /* Pods-RNInterfaceDemo.debug.xcconfig */,
+				1035C1AD45A7981A31634BFC /* Pods-RNInterfaceDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478B7B6C21DA104F007A4C1E /* RNInterfaceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478B7B9521DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemo" */;
+			buildPhases = (
+				FB72AC7F3320D6E8711EC6AC /* [CP] Check Pods Manifest.lock */,
+				478B7B6921DA104F007A4C1E /* Sources */,
+				478B7B6A21DA104F007A4C1E /* Frameworks */,
+				478B7B6B21DA104F007A4C1E /* Resources */,
+				DA5959D028EB2E4746D5AA0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNInterfaceDemo;
+			productName = RNInterfaceDemo;
+			productReference = 478B7B6D21DA104F007A4C1E /* RNInterfaceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		478B7B8021DA1070007A4C1E /* RNInterfaceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478B7B9821DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemoTests" */;
+			buildPhases = (
+				478B7B7D21DA1070007A4C1E /* Sources */,
+				478B7B7E21DA1070007A4C1E /* Frameworks */,
+				478B7B7F21DA1070007A4C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478B7B8321DA1070007A4C1E /* PBXTargetDependency */,
+			);
+			name = RNInterfaceDemoTests;
+			productName = RNInterfaceDemoTests;
+			productReference = 478B7B8121DA1070007A4C1E /* RNInterfaceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		478B7B8B21DA1070007A4C1E /* RNInterfaceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478B7B9B21DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemoUITests" */;
+			buildPhases = (
+				478B7B8821DA1070007A4C1E /* Sources */,
+				478B7B8921DA1070007A4C1E /* Frameworks */,
+				478B7B8A21DA1070007A4C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				478B7B8E21DA1070007A4C1E /* PBXTargetDependency */,
+			);
+			name = RNInterfaceDemoUITests;
+			productName = RNInterfaceDemoUITests;
+			productReference = 478B7B8C21DA1070007A4C1E /* RNInterfaceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478B7B6521DA104F007A4C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Manikanta;
+				TargetAttributes = {
+					478B7B6C21DA104F007A4C1E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					478B7B8021DA1070007A4C1E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 478B7B6C21DA104F007A4C1E;
+					};
+					478B7B8B21DA1070007A4C1E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 478B7B6C21DA104F007A4C1E;
+					};
+				};
+			};
+			buildConfigurationList = 478B7B6821DA104F007A4C1E /* Build configuration list for PBXProject "RNInterfaceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478B7B6421DA104F007A4C1E;
+			productRefGroup = 478B7B6E21DA104F007A4C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478B7B6C21DA104F007A4C1E /* RNInterfaceDemo */,
+				478B7B8021DA1070007A4C1E /* RNInterfaceDemoTests */,
+				478B7B8B21DA1070007A4C1E /* RNInterfaceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478B7B6B21DA104F007A4C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B7B7B21DA1070007A4C1E /* LaunchScreen.storyboard in Resources */,
+				478B7B7821DA1070007A4C1E /* Assets.xcassets in Resources */,
+				478B7B7621DA104F007A4C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B7F21DA1070007A4C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B8A21DA1070007A4C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA5959D028EB2E4746D5AA0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RNInterfaceDemo/Pods-RNInterfaceDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNInterfaceDemo/Pods-RNInterfaceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB72AC7F3320D6E8711EC6AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNInterfaceDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478B7B6921DA104F007A4C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B7BA721DA1149007A4C1E /* ReactVC.swift in Sources */,
+				478B7B7321DA104F007A4C1E /* ViewController.swift in Sources */,
+				478B7B7121DA104F007A4C1E /* AppDelegate.swift in Sources */,
+				478B7BA621DA1149007A4C1E /* RNInterface.swift in Sources */,
+				478B7BAA21DA174E007A4C1E /* ReactNativeModule.swift in Sources */,
+				478B7BA821DA1149007A4C1E /* RNMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B7D21DA1070007A4C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B7B8621DA1070007A4C1E /* RNInterfaceDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478B7B8821DA1070007A4C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B7B9121DA1070007A4C1E /* RNInterfaceDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		478B7B8321DA1070007A4C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478B7B6C21DA104F007A4C1E /* RNInterfaceDemo */;
+			targetProxy = 478B7B8221DA1070007A4C1E /* PBXContainerItemProxy */;
+		};
+		478B7B8E21DA1070007A4C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 478B7B6C21DA104F007A4C1E /* RNInterfaceDemo */;
+			targetProxy = 478B7B8D21DA1070007A4C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		478B7B7421DA104F007A4C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B7B7521DA104F007A4C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478B7B7921DA1070007A4C1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478B7B7A21DA1070007A4C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478B7B9321DA1070007A4C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478B7B9421DA1070007A4C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478B7B9621DA1070007A4C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F68F06A2246275E5732ED66 /* Pods-RNInterfaceDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TV8M2M4B6L;
+				INFOPLIST_FILE = RNInterfaceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpletalk.RNInterfaceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PurpleTalk Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/manikanta/Documents/ManikantaAdimulam/RNInterfaceDemo/RNInterfaceDemo/React/RNMethod/Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478B7B9721DA1070007A4C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1035C1AD45A7981A31634BFC /* Pods-RNInterfaceDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TV8M2M4B6L;
+				INFOPLIST_FILE = RNInterfaceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpletalk.RNInterfaceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PurpleTalk Development";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/manikanta/Documents/ManikantaAdimulam/RNInterfaceDemo/RNInterfaceDemo/React/RNMethod/Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		478B7B9921DA1070007A4C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNInterfaceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = purpletalk.RNInterfaceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNInterfaceDemo.app/RNInterfaceDemo";
+			};
+			name = Debug;
+		};
+		478B7B9A21DA1070007A4C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNInterfaceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = purpletalk.RNInterfaceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNInterfaceDemo.app/RNInterfaceDemo";
+			};
+			name = Release;
+		};
+		478B7B9C21DA1070007A4C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNInterfaceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = purpletalk.RNInterfaceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNInterfaceDemo;
+			};
+			name = Debug;
+		};
+		478B7B9D21DA1070007A4C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RNInterfaceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = purpletalk.RNInterfaceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RNInterfaceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478B7B6821DA104F007A4C1E /* Build configuration list for PBXProject "RNInterfaceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B7B9321DA1070007A4C1E /* Debug */,
+				478B7B9421DA1070007A4C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478B7B9521DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B7B9621DA1070007A4C1E /* Debug */,
+				478B7B9721DA1070007A4C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478B7B9821DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B7B9921DA1070007A4C1E /* Debug */,
+				478B7B9A21DA1070007A4C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478B7B9B21DA1070007A4C1E /* Build configuration list for PBXNativeTarget "RNInterfaceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478B7B9C21DA1070007A4C1E /* Debug */,
+				478B7B9D21DA1070007A4C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478B7B6521DA104F007A4C1E /* Project object */;
+}
